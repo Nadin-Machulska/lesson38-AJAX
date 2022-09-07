@@ -1,12 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 body {
   font-family: "Montserrat";
   font-weight: 400;
-  background-color: #333;
+  background: linear-gradient(90deg, rgb(215, 6, 6) 35%, rgb(39, 84, 125) 100%);
 }
 
 .wrapper {
   color: beige;
   max-width: 400px;
+  margin-top: 100px;
   margin: 0 auto;
 }
 
@@ -15,8 +17,9 @@ body {
 }
 .fieldset__legend {
   font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 35px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .form__button {
@@ -24,7 +27,7 @@ body {
   margin-top: 15px;
   border-radius: 5px;
   padding: 10px 15px;
-  background: rgb(93, 153, 98);
+  background-color: slateblue;
   color: beige;
 }
 
@@ -79,4 +82,15 @@ body {
   width: 100%;
   border-radius: 5px;
   line-height: 20px;
+}
+
+.output__title {
+  font-size: 25px;
+  margin-bottom: 33px;
+  text-align: center;
+}
+
+.result-item img {
+  width: 100%;
+  margin-bottom: 33px;
 }/*# sourceMappingURL=style.css.map */
