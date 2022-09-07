@@ -34,7 +34,7 @@ function sumbitRequest(event){
 
 
 
-    const url = `http://www.omdbapi.com/?apikey=2b36207a&s=${s}&y=${y}&type=${type}`
+    const url = `https://www.omdbapi.com/?apikey=2b36207a&s=${s}&y=${y}&type=${type}`
     
     const xhr = new XMLHttpRequest();
 
