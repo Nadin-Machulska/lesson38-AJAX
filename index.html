@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ajax</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <fieldset class="fieldset">
+        <legend class="fieldset__legend">Find movie for your perfect evening!</legend>
+        <form class="form" name="nameOfMovie">
+          <div class="title">
+            <label for="movieTitle" class="title__lable">Title:</label>
+            <input name="movieInput"  id="movieTitle" type="text" class="title__input"/>
+          </div>
+
+          <div class="year">
+            <label for="yearRelease" class="year__lable">Year:</label>
+            <input id="yearRelease" type="text" class="year__input" />
+          </div>
+
+          <div class="type">
+            <div class="type__title">Type of movie:</div>
+            <select name="type of movie" id="" class="type__select">
+              <option value="series">series</option>
+              <option selected value="movie">movie</option>
+              <!-- <option value="episode">episode</option> -->
+            </select>
+          </div>
+          <button type="submit" value="Submit" class="form__button">SEARCH</button>
+        </form>
+      </fieldset>
+
+      <ul class="result-list">
+
+      </ul>
+
+
+      <!-- <div class="output__title"></div>
+      <div class="output__img">
+        <img src="" alt="" />-->
+    </div>
+
+    <script src="second.js"></script>
+  </body>
+</html>
